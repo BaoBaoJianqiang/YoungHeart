@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C12BB53E1C11A0AF002BE68C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB53D1C11A0AF002BE68C /* UIKit.framework */; };
 		C12BB5421C11A0E3002BE68C /* Module1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C12BB5411C11A0E3002BE68C /* Module1ViewController.m */; };
-		C12BB5901C1593EE002BE68C /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB58F1C1593EE002BE68C /* libMyLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,7 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C12BB5901C1593EE002BE68C /* libMyLib.a in Frameworks */,
 				C12BB53E1C11A0AF002BE68C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +218,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Debug;
 		};
@@ -229,6 +228,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Release;
 		};
