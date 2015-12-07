@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C12BB6481C15F42C002BE68C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB6471C15F42C002BE68C /* UIKit.framework */; };
+		C12BB6501C15F6A7002BE68C /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB64F1C15F6A7002BE68C /* libMyLib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C12BB6371C15F3D5002BE68C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C12BB6391C15F3D5002BE68C /* libModule2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libModule2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12BB6471C15F42C002BE68C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C12BB6491C15F436002BE68C /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
+		C12BB64B1C15F492002BE68C /* Module2PageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Module2PageView.xib; sourceTree = "<group>"; };
+		C12BB64C1C15F492002BE68C /* Module2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Module2ViewController.h; sourceTree = "<group>"; };
+		C12BB64D1C15F492002BE68C /* Module2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Module2ViewController.m; sourceTree = "<group>"; };
+		C12BB64F1C15F6A7002BE68C /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C12BB6361C15F3D5002BE68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12BB6481C15F42C002BE68C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C12BB6301C15F3D5002BE68C = {
+			isa = PBXGroup;
+			children = (
+				C12BB64F1C15F6A7002BE68C /* libMyLib.a */,
+				C12BB64B1C15F492002BE68C /* Module2PageView.xib */,
+				C12BB64C1C15F492002BE68C /* Module2ViewController.h */,
+				C12BB64D1C15F492002BE68C /* Module2ViewController.m */,
+				C12BB6471C15F42C002BE68C /* UIKit.framework */,
+				C12BB63A1C15F3D5002BE68C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C12BB63A1C15F3D5002BE68C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C12BB6391C15F3D5002BE68C /* libModule2.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C12BB6381C15F3D5002BE68C /* Module2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12BB6421C15F3D5002BE68C /* Build configuration list for PBXNativeTarget "Module2" */;
+			buildPhases = (
+				C12BB6351C15F3D5002BE68C /* Sources */,
+				C12BB6361C15F3D5002BE68C /* Frameworks */,
+				C12BB6371C15F3D5002BE68C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Module2;
+			productName = Module2;
+			productReference = C12BB6391C15F3D5002BE68C /* libModule2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C12BB6311C15F3D5002BE68C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = baojianqiang;
+				TargetAttributes = {
+					C12BB6381C15F3D5002BE68C = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = C12BB6341C15F3D5002BE68C /* Build configuration list for PBXProject "Module2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C12BB6301C15F3D5002BE68C;
+			productRefGroup = C12BB63A1C15F3D5002BE68C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C12BB6381C15F3D5002BE68C /* Module2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C12BB6351C15F3D5002BE68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12BB64E1C15F492002BE68C /* Module2ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C12BB6401C15F3D5002BE68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+                "HEADER_SEARCH_PATHS[arch=*]" = ../MyLib;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+                OTHER_LDFLAGS = "-ObjC";
+                "OTHER_LDFLAGS[arch=*]" = "-ObjC";
+                SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C12BB6411C15F3D5002BE68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+                "HEADER_SEARCH_PATHS[arch=*]" = ../MyLib;
+                IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+                MTL_ENABLE_DEBUG_INFO = NO;
+                OTHER_LDFLAGS = "-ObjC";
+                SDKROOT = iphoneos;
+                VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C12BB6431C15F3D5002BE68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+			};
+			name = Debug;
+		};
+		C12BB6441C15F3D5002BE68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C12BB6341C15F3D5002BE68C /* Build configuration list for PBXProject "Module2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12BB6401C15F3D5002BE68C /* Debug */,
+				C12BB6411C15F3D5002BE68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12BB6421C15F3D5002BE68C /* Build configuration list for PBXNativeTarget "Module2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12BB6431C15F3D5002BE68C /* Debug */,
+				C12BB6441C15F3D5002BE68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C12BB6311C15F3D5002BE68C /* Project object */;
+}

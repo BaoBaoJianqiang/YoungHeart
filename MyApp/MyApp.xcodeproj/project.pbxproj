@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		C12BB49F1C10485F002BE68C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C12BB49E1C10485F002BE68C /* main.m */; };
 		C12BB4D41C108314002BE68C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB4D31C108314002BE68C /* UIKit.framework */; };
-		C12BB4EE1C113DF1002BE68C /* Module2PageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12BB4EA1C113DF1002BE68C /* Module2PageView.xib */; };
-		C12BB4F41C114197002BE68C /* Module2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C12BB4F21C114197002BE68C /* Module2ViewController.m */; };
 		C12BB5521C152684002BE68C /* libModule1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB5511C152684002BE68C /* libModule1.a */; };
 		C12BB5921C159400002BE68C /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB5911C159400002BE68C /* libMyLib.a */; };
 		C12BB6261C15EFB2002BE68C /* libConfigue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB6251C15EFB2002BE68C /* libConfigue.a */; };
@@ -21,9 +19,6 @@
 		C12BB49E1C10485F002BE68C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C12BB4AE1C104860002BE68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C12BB4D31C108314002BE68C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C12BB4EA1C113DF1002BE68C /* Module2PageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Module2PageView.xib; sourceTree = "<group>"; };
-		C12BB4F11C114197002BE68C /* Module2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Module2ViewController.h; sourceTree = "<group>"; };
-		C12BB4F21C114197002BE68C /* Module2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Module2ViewController.m; sourceTree = "<group>"; };
 		C12BB5511C152684002BE68C /* libModule1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libModule1.a; path = "../Module1/build/Debug-iphoneos/libModule1.a"; sourceTree = "<group>"; };
 		C12BB5911C159400002BE68C /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
 		C12BB6251C15EFB2002BE68C /* libConfigue.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libConfigue.a; path = "../Configue/build/Debug-iphoneos/libConfigue.a"; sourceTree = "<group>"; };
@@ -67,9 +62,6 @@
 		C12BB49C1C10485F002BE68C /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
-				C12BB4EA1C113DF1002BE68C /* Module2PageView.xib */,
-				C12BB4F11C114197002BE68C /* Module2ViewController.h */,
-				C12BB4F21C114197002BE68C /* Module2ViewController.m */,
 				C12BB4AE1C104860002BE68C /* Info.plist */,
 				C12BB49D1C10485F002BE68C /* Supporting Files */,
 			);
@@ -141,7 +133,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C12BB4EE1C113DF1002BE68C /* Module2PageView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +144,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C12BB49F1C10485F002BE68C /* main.m in Sources */,
-				C12BB4F41C114197002BE68C /* Module2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

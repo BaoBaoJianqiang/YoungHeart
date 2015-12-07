@@ -40,7 +40,7 @@
 - (void)createEvents {
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(execute:)
-                                             name:@"GOTOMODULE2"
+                                             name:@"Module"
                                              object:nil];
 }
 

@@ -2,10 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Configue/Configue.xcodeproj">
+      location = "group:Module1/Module1.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Module1/Module1.xcodeproj">
+      location = "group:Module2/Module2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Configue/Configue.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:MyLib/MyLib.xcodeproj">
