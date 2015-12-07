@@ -12,6 +12,7 @@
 		C12BB5521C152684002BE68C /* libModule1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB5511C152684002BE68C /* libModule1.a */; };
 		C12BB5921C159400002BE68C /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB5911C159400002BE68C /* libMyLib.a */; };
 		C12BB6261C15EFB2002BE68C /* libConfigue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB6251C15EFB2002BE68C /* libConfigue.a */; };
+		C12BB6521C15FB15002BE68C /* libModule2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB6511C15FB15002BE68C /* libModule2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C12BB5511C152684002BE68C /* libModule1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libModule1.a; path = "../Module1/build/Debug-iphoneos/libModule1.a"; sourceTree = "<group>"; };
 		C12BB5911C159400002BE68C /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
 		C12BB6251C15EFB2002BE68C /* libConfigue.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libConfigue.a; path = "../Configue/build/Debug-iphoneos/libConfigue.a"; sourceTree = "<group>"; };
+		C12BB6511C15FB15002BE68C /* libModule2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libModule2.a; path = "../Module2/build/Debug-iphoneos/libModule2.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12BB6521C15FB15002BE68C /* libModule2.a in Frameworks */,
 				C12BB6261C15EFB2002BE68C /* libConfigue.a in Frameworks */,
 				C12BB5921C159400002BE68C /* libMyLib.a in Frameworks */,
 				C12BB5521C152684002BE68C /* libModule1.a in Frameworks */,
@@ -42,6 +45,7 @@
 		C12BB4911C10485F002BE68C = {
 			isa = PBXGroup;
 			children = (
+				C12BB6511C15FB15002BE68C /* libModule2.a */,
 				C12BB6251C15EFB2002BE68C /* libConfigue.a */,
 				C12BB5911C159400002BE68C /* libMyLib.a */,
 				C12BB5511C152684002BE68C /* libModule1.a */,
