@@ -24,9 +24,6 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(Navigator);
 
 - (void)navigateTo:(NSString *)viewController withData:(NSMutableDictionary*)param {
     BaseViewController * classObject = (BaseViewController *)[[NSClassFromString(viewController) alloc] init];
-    if(!classObject)
-        return;
-    
     classObject.param = param;
     
     [_nav pushViewController:classObject animated:YES];
