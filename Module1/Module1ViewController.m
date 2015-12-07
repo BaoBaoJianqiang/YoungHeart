@@ -7,7 +7,7 @@
 //
 
 #import "Module1ViewController.h"
-//#import "Navigator/Navigator.h"
+#import "Navigator/Navigator.h"
 
 @interface Module1ViewController () {
     UIButton* module2Button;
@@ -49,7 +49,7 @@
     [data setValue: @"Jianqiang" forKey: @"UserName"];
     [data setValue: @"28" forKey: @"Age"];
     
-//    [Navigator navigateTo:url withData: data];
+    [Navigator navigateTo:url withData: data];
 }
 
 @end
