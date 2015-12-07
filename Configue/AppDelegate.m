@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "Module1ViewController.h"
+#import "BaseClass/BaseViewController.h"
 #import "Navigator.h"
 
 @interface AppDelegate ()
