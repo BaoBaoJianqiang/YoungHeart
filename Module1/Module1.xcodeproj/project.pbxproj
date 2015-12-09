@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		C12BB53E1C11A0AF002BE68C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB53D1C11A0AF002BE68C /* UIKit.framework */; };
 		C12BB5421C11A0E3002BE68C /* Module1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C12BB5411C11A0E3002BE68C /* Module1ViewController.m */; };
+		C18B9D081C183C05000D3459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C18B9D071C183C05000D3459 /* main.m */; };
+		C18B9D1D1C183C1B000D3459 /* libConfigue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C18B9D1B1C183C1B000D3459 /* libConfigue.a */; };
+		C18B9D1E1C183C1B000D3459 /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C18B9D1C1C183C1B000D3459 /* libMyLib.a */; };
+		C18B9D1F1C183C20000D3459 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB53D1C11A0AF002BE68C /* UIKit.framework */; };
+		C18B9D201C183C27000D3459 /* Module1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C12BB5411C11A0E3002BE68C /* Module1ViewController.m */; };
+		C18B9D211C183C37000D3459 /* Module1PageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12BB53F1C11A0E3002BE68C /* Module1PageView.xib */; };
+		C18B9D221C183C37000D3459 /* Module1ViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = C12BB5401C11A0E3002BE68C /* Module1ViewController.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +37,11 @@
 		C12BB5401C11A0E3002BE68C /* Module1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Module1ViewController.h; sourceTree = "<group>"; };
 		C12BB5411C11A0E3002BE68C /* Module1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Module1ViewController.m; sourceTree = "<group>"; };
 		C12BB58F1C1593EE002BE68C /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
+		C18B9D041C183C05000D3459 /* Module1App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Module1App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18B9D071C183C05000D3459 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C18B9D171C183C05000D3459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C18B9D1B1C183C1B000D3459 /* libConfigue.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libConfigue.a; path = "../Configue/build/Debug-iphoneos/libConfigue.a"; sourceTree = "<group>"; };
+		C18B9D1C1C183C1B000D3459 /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +53,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C18B9D011C183C05000D3459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18B9D1F1C183C20000D3459 /* UIKit.framework in Frameworks */,
+				C18B9D1D1C183C1B000D3459 /* libConfigue.a in Frameworks */,
+				C18B9D1E1C183C1B000D3459 /* libMyLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		C12BB5031C119EFC002BE68C = {
 			isa = PBXGroup;
 			children = (
+				C18B9D1B1C183C1B000D3459 /* libConfigue.a */,
+				C18B9D1C1C183C1B000D3459 /* libMyLib.a */,
 				C12BB58F1C1593EE002BE68C /* libMyLib.a */,
 				C12BB53F1C11A0E3002BE68C /* Module1PageView.xib */,
 				C12BB5401C11A0E3002BE68C /* Module1ViewController.h */,
 				C12BB5411C11A0E3002BE68C /* Module1ViewController.m */,
 				C12BB53D1C11A0AF002BE68C /* UIKit.framework */,
+				C18B9D051C183C05000D3459 /* Module1App */,
 				C12BB50D1C119EFC002BE68C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,8 +85,26 @@
 			isa = PBXGroup;
 			children = (
 				C12BB50C1C119EFC002BE68C /* libModule1.a */,
+				C18B9D041C183C05000D3459 /* Module1App.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C18B9D051C183C05000D3459 /* Module1App */ = {
+			isa = PBXGroup;
+			children = (
+				C18B9D171C183C05000D3459 /* Info.plist */,
+				C18B9D061C183C05000D3459 /* Supporting Files */,
+			);
+			path = Module1App;
+			sourceTree = "<group>";
+		};
+		C18B9D061C183C05000D3459 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C18B9D071C183C05000D3459 /* main.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +127,23 @@
 			productReference = C12BB50C1C119EFC002BE68C /* libModule1.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		C18B9D031C183C05000D3459 /* Module1App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18B9D1A1C183C05000D3459 /* Build configuration list for PBXNativeTarget "Module1App" */;
+			buildPhases = (
+				C18B9D001C183C05000D3459 /* Sources */,
+				C18B9D011C183C05000D3459 /* Frameworks */,
+				C18B9D021C183C05000D3459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Module1App;
+			productName = Module1App;
+			productReference = C18B9D041C183C05000D3459 /* Module1App.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +156,9 @@
 					C12BB50B1C119EFC002BE68C = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
+					C18B9D031C183C05000D3459 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
 				};
 			};
 			buildConfigurationList = C12BB5071C119EFC002BE68C /* Build configuration list for PBXProject "Module1" */;
@@ -104,6 +167,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = C12BB5031C119EFC002BE68C;
 			productRefGroup = C12BB50D1C119EFC002BE68C /* Products */;
@@ -111,9 +175,22 @@
 			projectRoot = "";
 			targets = (
 				C12BB50B1C119EFC002BE68C /* Module1 */,
+				C18B9D031C183C05000D3459 /* Module1App */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C18B9D021C183C05000D3459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18B9D211C183C37000D3459 /* Module1PageView.xib in Resources */,
+				C18B9D221C183C37000D3459 /* Module1ViewController.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C12BB5081C119EFC002BE68C /* Sources */ = {
@@ -121,6 +198,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C12BB5421C11A0E3002BE68C /* Module1ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18B9D001C183C05000D3459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18B9D201C183C27000D3459 /* Module1ViewController.m in Sources */,
+				C18B9D081C183C05000D3459 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +318,36 @@
 			};
 			name = Release;
 		};
+		C18B9D181C183C05000D3459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					../MyLib,
+					../Configue,
+				);
+				INFOPLIST_FILE = Module1App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jianqiang.baojianqiang.Module1App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C18B9D191C183C05000D3459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					../MyLib,
+					../Configue,
+				);
+				INFOPLIST_FILE = Module1App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jianqiang.baojianqiang.Module1App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -252,6 +368,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C18B9D1A1C183C05000D3459 /* Build configuration list for PBXNativeTarget "Module1App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18B9D181C183C05000D3459 /* Debug */,
+				C18B9D191C183C05000D3459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
