@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C12BB53E1C11A0AF002BE68C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB53D1C11A0AF002BE68C /* UIKit.framework */; };
 		C18B9D081C183C05000D3459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C18B9D071C183C05000D3459 /* main.m */; };
-		C18B9D3A1C18459A000D3459 /* Module1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C18B9D391C18459A000D3459 /* Module1ViewController.m */; };
-		C18B9D3B1C1845AB000D3459 /* libModule1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB50C1C119EFC002BE68C /* libModule1.a */; };
-		C18B9D3E1C1845B6000D3459 /* libConfigue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C18B9D3C1C1845B6000D3459 /* libConfigue.a */; };
-		C18B9D3F1C1845B6000D3459 /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C18B9D3D1C1845B6000D3459 /* libMyLib.a */; };
+		C18B9D4C1C18479E000D3459 /* libConfigue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C18B9D4A1C18479E000D3459 /* libConfigue.a */; };
+		C18B9D4D1C18479E000D3459 /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C18B9D4B1C18479E000D3459 /* libMyLib.a */; };
+		C18B9D4E1C1847A3000D3459 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB53D1C11A0AF002BE68C /* UIKit.framework */; };
+		C18B9D4F1C1849AC000D3459 /* libModule1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB50C1C119EFC002BE68C /* libModule1.a */; };
+		C18B9D531C1849D6000D3459 /* Module1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C18B9D521C1849D6000D3459 /* Module1ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,11 +33,11 @@
 		C18B9D041C183C05000D3459 /* Module1App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Module1App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C18B9D071C183C05000D3459 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C18B9D171C183C05000D3459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C18B9D371C18459A000D3459 /* Module1PageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Module1PageView.xib; sourceTree = "<group>"; };
-		C18B9D381C18459A000D3459 /* Module1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Module1ViewController.h; sourceTree = "<group>"; };
-		C18B9D391C18459A000D3459 /* Module1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Module1ViewController.m; sourceTree = "<group>"; };
-		C18B9D3C1C1845B6000D3459 /* libConfigue.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libConfigue.a; path = "../Configue/build/Debug-iphoneos/libConfigue.a"; sourceTree = "<group>"; };
-		C18B9D3D1C1845B6000D3459 /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
+		C18B9D4A1C18479E000D3459 /* libConfigue.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libConfigue.a; path = "../Configue/build/Debug-iphoneos/libConfigue.a"; sourceTree = "<group>"; };
+		C18B9D4B1C18479E000D3459 /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
+		C18B9D511C1849D6000D3459 /* Module1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Module1ViewController.h; sourceTree = "<group>"; };
+		C18B9D521C1849D6000D3459 /* Module1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Module1ViewController.m; sourceTree = "<group>"; };
+		C18B9D551C184C44000D3459 /* Module1PageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Module1PageView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,9 +45,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C18B9D3E1C1845B6000D3459 /* libConfigue.a in Frameworks */,
-				C18B9D3F1C1845B6000D3459 /* libMyLib.a in Frameworks */,
-				C12BB53E1C11A0AF002BE68C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +52,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C18B9D3B1C1845AB000D3459 /* libModule1.a in Frameworks */,
+				C18B9D4F1C1849AC000D3459 /* libModule1.a in Frameworks */,
+				C18B9D4E1C1847A3000D3459 /* UIKit.framework in Frameworks */,
+				C18B9D4C1C18479E000D3459 /* libConfigue.a in Frameworks */,
+				C18B9D4D1C18479E000D3459 /* libMyLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,11 +65,11 @@
 		C12BB5031C119EFC002BE68C = {
 			isa = PBXGroup;
 			children = (
-				C18B9D3C1C1845B6000D3459 /* libConfigue.a */,
-				C18B9D3D1C1845B6000D3459 /* libMyLib.a */,
-				C18B9D371C18459A000D3459 /* Module1PageView.xib */,
-				C18B9D381C18459A000D3459 /* Module1ViewController.h */,
-				C18B9D391C18459A000D3459 /* Module1ViewController.m */,
+				C18B9D551C184C44000D3459 /* Module1PageView.xib */,
+				C18B9D511C1849D6000D3459 /* Module1ViewController.h */,
+				C18B9D521C1849D6000D3459 /* Module1ViewController.m */,
+				C18B9D4A1C18479E000D3459 /* libConfigue.a */,
+				C18B9D4B1C18479E000D3459 /* libMyLib.a */,
 				C12BB53D1C11A0AF002BE68C /* UIKit.framework */,
 				C18B9D051C183C05000D3459 /* Module1App */,
 				C12BB50D1C119EFC002BE68C /* Products */,
@@ -190,7 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C18B9D3A1C18459A000D3459 /* Module1ViewController.m in Sources */,
+				C18B9D531C1849D6000D3459 /* Module1ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C12BB6481C15F42C002BE68C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB6471C15F42C002BE68C /* UIKit.framework */; };
 		C18B9CE51C18390E000D3459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C18B9CE41C18390E000D3459 /* main.m */; };
 		C18B9D311C184487000D3459 /* Module2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C18B9D2F1C184487000D3459 /* Module2ViewController.m */; };
-		C18B9D341C184518000D3459 /* libConfigue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C18B9D321C184518000D3459 /* libConfigue.a */; };
-		C18B9D351C184518000D3459 /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C18B9D331C184518000D3459 /* libMyLib.a */; };
 		C18B9D361C184521000D3459 /* libModule2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB6391C15F3D5002BE68C /* libModule2.a */; };
+		C18B9D461C184753000D3459 /* libConfigue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C18B9D441C184753000D3459 /* libConfigue.a */; };
+		C18B9D471C184753000D3459 /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C18B9D451C184753000D3459 /* libMyLib.a */; };
+		C18B9D481C184759000D3459 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB6471C15F42C002BE68C /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,8 +36,8 @@
 		C18B9D2E1C184487000D3459 /* Module2PageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Module2PageView.xib; sourceTree = "<group>"; };
 		C18B9D2F1C184487000D3459 /* Module2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Module2ViewController.m; sourceTree = "<group>"; };
 		C18B9D301C184487000D3459 /* Module2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Module2ViewController.h; sourceTree = "<group>"; };
-		C18B9D321C184518000D3459 /* libConfigue.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libConfigue.a; path = "../Configue/build/Debug-iphoneos/libConfigue.a"; sourceTree = "<group>"; };
-		C18B9D331C184518000D3459 /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
+		C18B9D441C184753000D3459 /* libConfigue.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libConfigue.a; path = "../Configue/build/Debug-iphoneos/libConfigue.a"; sourceTree = "<group>"; };
+		C18B9D451C184753000D3459 /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,9 +45,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C18B9D341C184518000D3459 /* libConfigue.a in Frameworks */,
-				C18B9D351C184518000D3459 /* libMyLib.a in Frameworks */,
-				C12BB6481C15F42C002BE68C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +52,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C18B9D481C184759000D3459 /* UIKit.framework in Frameworks */,
+				C18B9D461C184753000D3459 /* libConfigue.a in Frameworks */,
+				C18B9D471C184753000D3459 /* libMyLib.a in Frameworks */,
 				C18B9D361C184521000D3459 /* libModule2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,8 +65,8 @@
 		C12BB6301C15F3D5002BE68C = {
 			isa = PBXGroup;
 			children = (
-				C18B9D321C184518000D3459 /* libConfigue.a */,
-				C18B9D331C184518000D3459 /* libMyLib.a */,
+				C18B9D441C184753000D3459 /* libConfigue.a */,
+				C18B9D451C184753000D3459 /* libMyLib.a */,
 				C18B9D2E1C184487000D3459 /* Module2PageView.xib */,
 				C18B9D2F1C184487000D3459 /* Module2ViewController.m */,
 				C18B9D301C184487000D3459 /* Module2ViewController.h */,
