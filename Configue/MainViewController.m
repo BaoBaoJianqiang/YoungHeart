@@ -18,26 +18,22 @@
 
 @implementation MainViewController
 
-- (void)createFields {
-
-}
-
-- (void)createViews {
-    //1.从xib中获取View
-    NSArray* list = [[NSBundle mainBundle] loadNibNamed: @"MainPageView" owner: self options: nil];
-    self.view = list.lastObject;
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
     
-    module1Button = (UIButton*)[self.view viewWithTag: 300];
-    module2Button = (UIButton*)[self.view viewWithTag: 400];
-}
+    module1Button = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 100,100)];
+    [module1Button setBackgroundColor: [UIColor redColor]];
+    [module1Button setTitle: @"Module1" forState:UIControlStateNormal];
+    [module1Button addTarget:self action:@selector(gotoModule1) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview: module1Button];
 
-- (void)createEvents {
-    [module1Button addTarget: self action: @selector(gotoModule1) forControlEvents:UIControlEventTouchUpInside];
-    [module2Button addTarget: self action: @selector(gotoModule2) forControlEvents:UIControlEventTouchUpInside];
-}
+    module2Button = [[UIButton alloc]initWithFrame:CGRectMake(200, 200, 100,100)];
+    [module2Button setBackgroundColor: [UIColor redColor]];
+    [module2Button setTitle: @"Module2" forState:UIControlStateNormal];
+    [module2Button addTarget:self action:@selector(gotoModule2) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview: module2Button];
 
-- (void)loadData {
-    
 }
 
 - (void) gotoModule1 {
