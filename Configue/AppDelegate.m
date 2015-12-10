@@ -8,7 +8,8 @@
 
 #import "AppDelegate.h"
 #import "BaseClass/BaseViewController.h"
-#import "Navigator.h"
+#import "Navigator/Navigator.h"
+
 
 @interface AppDelegate ()
 

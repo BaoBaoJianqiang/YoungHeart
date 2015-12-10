@@ -25,8 +25,6 @@
 
 /* Begin PBXFileReference section */
 		C12BB6161C15EEBE002BE68C /* libConfigue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libConfigue.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C12BB6271C15EFC5002BE68C /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
-		C12BB6291C15F29F002BE68C /* MainPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainPageView.xib; sourceTree = "<group>"; };
 		C12BB62A1C15F29F002BE68C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		C12BB62B1C15F29F002BE68C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		C12BB62D1C15F2BF002BE68C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,10 +47,8 @@
 			children = (
 				C12BB62D1C15F2BF002BE68C /* AppDelegate.h */,
 				C12BB62E1C15F2BF002BE68C /* AppDelegate.m */,
-				C12BB6291C15F29F002BE68C /* MainPageView.xib */,
 				C12BB62A1C15F29F002BE68C /* MainViewController.h */,
 				C12BB62B1C15F29F002BE68C /* MainViewController.m */,
-				C12BB6271C15EFC5002BE68C /* libMyLib.a */,
 				C12BB6171C15EEBE002BE68C /* Products */,
 			);
 			sourceTree = "<group>";

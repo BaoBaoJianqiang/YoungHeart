@@ -7,7 +7,7 @@
 //
 
 #import "MainViewController.h"
-#import "Navigator.h"
+#import "Navigator/Navigator.h"
 
 @interface MainViewController () {
     UIButton* module1Button;
