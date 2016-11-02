@@ -29,7 +29,9 @@
 
 - (void)createViews {
     //1.从xib中获取View
-    NSArray* list = [[NSBundle mainBundle] loadNibNamed: @"Module1PageView" owner: self options: nil];
+    NSString * rescourcePath = [[NSBundle mainBundle] pathForResource:@"Module1Bundle" ofType:@"bundle"];
+    NSBundle * bundle =[NSBundle bundleWithPath:rescourcePath];
+    NSArray* list = [bundle loadNibNamed: @"Module1PageView" owner: self options: nil];
     self.view = list.lastObject;
     
     module2Button = (UIButton*)[self.view viewWithTag: 400];

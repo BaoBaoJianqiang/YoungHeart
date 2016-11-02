@@ -13,6 +13,9 @@
 		C18B9D4E1C1847A3000D3459 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB53D1C11A0AF002BE68C /* UIKit.framework */; };
 		C18B9D4F1C1849AC000D3459 /* libModule1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB50C1C119EFC002BE68C /* libModule1.a */; };
 		C18B9D531C1849D6000D3459 /* Module1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C18B9D521C1849D6000D3459 /* Module1ViewController.m */; };
+		F1AFC9521DCA1AB2005B9181 /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AFC9511DCA1AB2005B9181 /* img1.png */; };
+		F1AFC9541DCA1AC9005B9181 /* Module1PageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1AFC9531DCA1AC9005B9181 /* Module1PageView.xib */; };
+		F1AFC9561DCA1D7D005B9181 /* Module1Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F1AFC9551DCA1D7D005B9181 /* Module1Bundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,7 +40,11 @@
 		C18B9D4B1C18479E000D3459 /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
 		C18B9D511C1849D6000D3459 /* Module1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Module1ViewController.h; sourceTree = "<group>"; };
 		C18B9D521C1849D6000D3459 /* Module1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Module1ViewController.m; sourceTree = "<group>"; };
-		C18B9D551C184C44000D3459 /* Module1PageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Module1PageView.xib; sourceTree = "<group>"; };
+		F1AFC94B1DCA1943005B9181 /* Module1Bundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Module1Bundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AFC94D1DCA1943005B9181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1AFC9511DCA1AB2005B9181 /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
+		F1AFC9531DCA1AC9005B9181 /* Module1PageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Module1PageView.xib; sourceTree = "<group>"; };
+		F1AFC9551DCA1D7D005B9181 /* Module1Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Module1Bundle.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,19 +66,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F1AFC9481DCA1943005B9181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		C12BB5031C119EFC002BE68C = {
 			isa = PBXGroup;
 			children = (
-				C18B9D551C184C44000D3459 /* Module1PageView.xib */,
+				F1AFC9551DCA1D7D005B9181 /* Module1Bundle.bundle */,
 				C18B9D511C1849D6000D3459 /* Module1ViewController.h */,
 				C18B9D521C1849D6000D3459 /* Module1ViewController.m */,
 				C18B9D4A1C18479E000D3459 /* libConfigue.a */,
 				C18B9D4B1C18479E000D3459 /* libMyLib.a */,
 				C12BB53D1C11A0AF002BE68C /* UIKit.framework */,
 				C18B9D051C183C05000D3459 /* Module1App */,
+				F1AFC94C1DCA1943005B9181 /* Module1Bundle */,
 				C12BB50D1C119EFC002BE68C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,6 +96,7 @@
 			children = (
 				C12BB50C1C119EFC002BE68C /* libModule1.a */,
 				C18B9D041C183C05000D3459 /* Module1App.app */,
+				F1AFC94B1DCA1943005B9181 /* Module1Bundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +116,16 @@
 				C18B9D071C183C05000D3459 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1AFC94C1DCA1943005B9181 /* Module1Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				F1AFC9531DCA1AC9005B9181 /* Module1PageView.xib */,
+				F1AFC9511DCA1AB2005B9181 /* img1.png */,
+				F1AFC94D1DCA1943005B9181 /* Info.plist */,
+			);
+			path = Module1Bundle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +165,23 @@
 			productReference = C18B9D041C183C05000D3459 /* Module1App.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F1AFC94A1DCA1943005B9181 /* Module1Bundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1AFC9501DCA1943005B9181 /* Build configuration list for PBXNativeTarget "Module1Bundle" */;
+			buildPhases = (
+				F1AFC9471DCA1943005B9181 /* Sources */,
+				F1AFC9481DCA1943005B9181 /* Frameworks */,
+				F1AFC9491DCA1943005B9181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Module1Bundle;
+			productName = Module1Bundle;
+			productReference = F1AFC94B1DCA1943005B9181 /* Module1Bundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -153,6 +196,9 @@
 					};
 					C18B9D031C183C05000D3459 = {
 						CreatedOnToolsVersion = 7.1.1;
+					};
+					F1AFC94A1DCA1943005B9181 = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
@@ -171,6 +217,7 @@
 			targets = (
 				C12BB50B1C119EFC002BE68C /* Module1 */,
 				C18B9D031C183C05000D3459 /* Module1App */,
+				F1AFC94A1DCA1943005B9181 /* Module1Bundle */,
 			);
 		};
 /* End PBXProject section */
@@ -180,6 +227,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1AFC9561DCA1D7D005B9181 /* Module1Bundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AFC9491DCA1943005B9181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AFC9521DCA1AB2005B9181 /* img1.png in Resources */,
+				F1AFC9541DCA1AC9005B9181 /* Module1PageView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +256,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C18B9D081C183C05000D3459 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AFC9471DCA1943005B9181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +404,40 @@
 			};
 			name = Release;
 		};
+		F1AFC94E1DCA1943005B9181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				INFOPLIST_FILE = Module1Bundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jianqiang.Module1Bundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.3;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F1AFC94F1DCA1943005B9181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				INFOPLIST_FILE = Module1Bundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jianqiang.Module1Bundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.3;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -369,6 +467,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F1AFC9501DCA1943005B9181 /* Build configuration list for PBXNativeTarget "Module1Bundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AFC94E1DCA1943005B9181 /* Debug */,
+				F1AFC94F1DCA1943005B9181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
