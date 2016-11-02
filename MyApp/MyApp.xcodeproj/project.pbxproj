@@ -13,6 +13,8 @@
 		C12BB5921C159400002BE68C /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB5911C159400002BE68C /* libMyLib.a */; };
 		C12BB6261C15EFB2002BE68C /* libConfigue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB6251C15EFB2002BE68C /* libConfigue.a */; };
 		C12BB6521C15FB15002BE68C /* libModule2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BB6511C15FB15002BE68C /* libModule2.a */; };
+		F1AFC9681DCA25DD005B9181 /* Module2Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F1AFC9671DCA25DD005B9181 /* Module2Bundle.bundle */; };
+		F1AFC96A1DCA25E6005B9181 /* Module1Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F1AFC9691DCA25E6005B9181 /* Module1Bundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C12BB5911C159400002BE68C /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "../MyLib/build/Debug-iphoneos/libMyLib.a"; sourceTree = "<group>"; };
 		C12BB6251C15EFB2002BE68C /* libConfigue.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libConfigue.a; path = "../Configue/build/Debug-iphoneos/libConfigue.a"; sourceTree = "<group>"; };
 		C12BB6511C15FB15002BE68C /* libModule2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libModule2.a; path = "../Module2/build/Debug-iphoneos/libModule2.a"; sourceTree = "<group>"; };
+		F1AFC9671DCA25DD005B9181 /* Module2Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Module2Bundle.bundle; sourceTree = "<group>"; };
+		F1AFC9691DCA25E6005B9181 /* Module1Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Module1Bundle.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,8 @@
 		C12BB4911C10485F002BE68C = {
 			isa = PBXGroup;
 			children = (
+				F1AFC9691DCA25E6005B9181 /* Module1Bundle.bundle */,
+				F1AFC9671DCA25DD005B9181 /* Module2Bundle.bundle */,
 				C12BB6511C15FB15002BE68C /* libModule2.a */,
 				C12BB6251C15EFB2002BE68C /* libConfigue.a */,
 				C12BB5911C159400002BE68C /* libMyLib.a */,
@@ -111,6 +117,7 @@
 				TargetAttributes = {
 					C12BB4991C10485F002BE68C = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = S5M4P8UNL5;
 					};
 				};
 			};
@@ -137,6 +144,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1AFC9681DCA25DD005B9181 /* Module2Bundle.bundle in Resources */,
+				F1AFC96A1DCA25E6005B9181 /* Module1Bundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,11 +253,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jianqiang.baojianqiang.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Debug;
@@ -257,11 +269,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jianqiang.baojianqiang.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Release;
