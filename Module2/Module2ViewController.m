@@ -30,7 +30,9 @@
 
 - (void)createViews {
     //1.从xib中获取View
-    NSArray* list = [[NSBundle mainBundle] loadNibNamed: @"Module2PageView" owner: self options: nil];
+    NSString * rescourcePath = [[NSBundle mainBundle] pathForResource:@"Module2Bundle" ofType:@"bundle"];
+    NSBundle * bundle =[NSBundle bundleWithPath:rescourcePath];
+    NSArray* list = [bundle loadNibNamed: @"Module2PageView" owner: self options: nil];
     self.view = list.lastObject;
     
     labelUserName = (UILabel*)[self.view viewWithTag: 100];
